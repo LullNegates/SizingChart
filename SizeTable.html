@@ -5,46 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="SizeTable.css">
+    <script src="SizeTable.js"></script>
 </head>
 <body>
+  <div class="SizingContainer">
+    <div class="header">
+      <div class="inputSwitch">
+        <p class="inches">IN</p>
+        <label class="switch">
+          <input type="checkbox" id="unitSwitch">
+          <span class="slider round"></span>
+        </label>
+        <p class="centimeters">CM</p>
+      </div>
+      <h1 class="headerTitle">Sizing Guide</h1>
+      <button class="closeChart">✖</button>
+    </div>
     <table class="SizingChartTable">
         <tr class="SizingChartHeaders">
-          <th>SIZE</th>
-          <th>HEIGHT</th>
-          <th>WAIST</th>
-          <th>CHEST</th>
+          <th>Bed Size</th>
+          <th>
+            <p>Bed Dimensions</p>
+            <p>W x L</p>
+          </th>
+          <th>
+            <p>Flat Sheet</p>
+            <p>W x L</p>
+          </th>
+          <th>
+            <p>Fitted Sheet</p>
+            <p>W x L</p>
+          </th>
+          <th>
+            <p>Duvet Cover</p>
+            <p>W x L</p>
+          </th>
+          <th>
+            <p>Pillowcase</p>
+            <p>W x L</p>
+          </th>
         </tr>
         <tr class="SizingChartChildren">
-          <td>XXS</td>
+          <td class="leftHeader">Twin</td>
           <td>4 ft 7 in</td>
           <td>23-24</td>
           <td>29-30</td>
-        </tr>
-        <tr class="SizingChartChildren">
-          <td>XS</td>
-          <td>4 ft 9 in</td>
-          <td>23-24</td>
+          <td>29-30</td>
           <td>29-30</td>
         </tr>
         <tr class="SizingChartChildren">
-            <td>S</td>
-            <td>4 ft 11 in</td>
-            <td>23-24</td>
-            <td>29-30</td>
-          </tr>
-          <tr class="SizingChartChildren">
-            <td>M</td>
-            <td>5 ft 1 in</td>
-            <td>23-24</td>
-            <td>29-30</td>
-          </tr>
-          <tr class="SizingChartChildren">
-            <td>L</td>
-            <td>5 ft 3 in</td>
-            <td>23-24</td>
-            <td>29-30</td>
-          </tr>
-      </table>
-    
+          <td class="leftHeader">Twin XL</td>
+          <td>4 ft 9 in</td>
+          <td>23-24</td>
+          <td>29-30</td>
+          <td>29-30</td>
+          <td>29-30</td>
+        </tr>
+        <tr class="SizingChartChildren">
+          <td class="leftHeader">Full</td>
+          <td>4 ft 11 in</td>
+          <td>23-24</td>
+          <td>29-30</td>
+          <td>29-30</td>
+          <td>29-30</td>
+        </tr>
+        <tr class="SizingChartChildren">
+          <td class="leftHeader">Queen</td>
+          <td>5 ft 1 in</td>
+          <td>23-24</td>
+          <td>29-30</td>
+          <td>29-30</td>
+          <td>29-30</td>
+        </tr>
+        <tr class="SizingChartChildren">
+          <td class="leftHeader">King</td>
+          <td>5 ft 3 in</td>
+          <td>23-24</td>
+          <td>29-30</td>
+          <td>29-30</td>
+          <td>29-30</td>
+        </tr>
+        <tr class="SizingChartChildren">
+          <td class="leftHeader">California King</td>
+          <td>5 ft 3 in</td>
+          <td>23-24</td>
+          <td>29-30</td>
+          <td>29-30</td>
+          <td>29-30</td>
+        </tr>
+    </table>
+  </div>  
 </body>
 </html>
