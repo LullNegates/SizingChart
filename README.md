@@ -13,4 +13,4 @@ This is a simple Sizing Chart Component that is able to switch between inches an
 
 ## Demo
 
-Insert gif or link to demo
+![Sequence 01_1](https://github.com/LullNegates/SizingChart/assets/126728901/72508e40-7cb1-4910-8777-c849df073b0a)
